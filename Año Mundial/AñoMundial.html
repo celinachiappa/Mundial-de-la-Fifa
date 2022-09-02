@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mundial de la Fifa</title>
+</head>
+<body>
+    <h1> Programa Mundial de la Fifa</h1>
+<script>
+function SaltarLinea() {
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<br>");
+            };
+
+
+function imprimir(frase){
+        document.write (frase)
+        SaltarLinea();
+            };
+
+var anhoMundial = 1930;
+var limite = parseInt(prompt("Ingrese año limite"));
+
+while (anhoMundial < limite) {
+
+    //Hay que tener cuidado con el while porque podemos trabar la computadora o el programa si no logra salir del loop//
+
+    anhoMundial = anhoMundial + 4;
+    imprimir('Hubo mundial de la Fifa en ' + anhoMundial ); 
+    
+} imprimir('Fin');
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
